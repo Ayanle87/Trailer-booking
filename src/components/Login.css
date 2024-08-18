@@ -1,0 +1,100 @@
+.signin-container {
+  padding: 14px;
+  width: 100vw;
+  margin: 20px auto;
+  font-family: "Poppins";
+  margin-top: 130px;
+}
+.form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 100%; */
+  gap: 14px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #370303;
+  border-radius: 10px;
+  max-width: fit-content;
+}
+input {
+  width: 320px;
+  height: 57px;
+  border: solid black 1px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #8aa1a1;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.third-input {
+  background-color: #a18aa1;
+  font-weight: 600;
+}
+.input4 {
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.login-input:focus-within {
+  background-color: #6f8989;
+}
+.login {
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 32px;
+  margin-bottom: 35px;
+  color: #8aa1a1;
+}
+.forgot {
+  text-align: center;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.password-toggle:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: black;
+  font-weight: 600;
+}
+.error {
+  text-align: center;
+ }
+@media screen and (max-width: 767px) {
+  .signin-container {
+    width: min-content;
+    overflow: hidden;
+    margin-top: 50px;
+    /* margin: 0 auto; */
+  }
+  .form {
+    margin: 4px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .form {
+      width: 60vw;
+      height: 100dvh;
+      margin: 0 auto;
+    }
+    
+  }}

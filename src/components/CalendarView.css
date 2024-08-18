@@ -1,0 +1,143 @@
+@media screen and (max-width: 767px) {
+  .DatePicker-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 80vh; */
+    margin-top: 90px;
+    font-family: "Poppins";
+  }
+  .booked-date {
+    background-color: #ffcccc;
+  }
+
+  .TrailerTitel {
+    color: #8aa1a1;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .checkbox-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .checkbox-hidden {
+    visibility: hidden;
+    margin-top: 30px;
+  }
+  .checkbox-text {
+    display: flex;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  .DatePickerBtn {
+    margin-top: 30px;
+  }
+  .TrailerBtn {
+    margin-bottom: 300px;
+    background-color: #a18aa1;
+    width: 144px;
+    padding: 18px;
+    margin: 3px 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+  .TrailerBtn:hover {
+    background-color: #6f8989;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .DatePicker-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 80vh; */
+    margin-top: 90px;
+    font-family: "Poppins";
+  }
+  .booked-date {
+    background-color: #ffcccc;
+  }
+
+  .TrailerTitel {
+    color: #8aa1a1;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 100px;
+  }
+  .checkbox-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* text-align: left; */
+  }
+  .checkbox-hidden {
+    visibility: hidden;
+    margin-top: 30px;
+  }
+  .checkbox-text {
+    display: flex;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  .DatePickerBtn {
+    margin-top: 30px;
+  }
+  .TrailerBtn {
+    margin-bottom: 300px;
+    background-color: #a18aa1;
+    width: 144px;
+    padding: 18px;
+    margin: 3px 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+  .TrailerBtn:hover {
+    background-color: #6f8989;
+  }
+ 
+  .react-datepicker__day {
+    cursor: pointer;
+    padding: 6px;
+    margin: 0 auto;
+  }
+  .react-datepicker__current-month,
+  .react-datepicker-time__header,
+  .react-datepicker-year-header {
+    font-weight: bold;
+    color: black;
+    font-size: 1.3rem;
+    width: 350px;
+    margin-top: 3px;
+  }
+  .react-datepicker__day-names {
+    padding: 2px 5px;
+    font-size: 1rem;
+  }
+  .react-datepicker__month {
+    margin-top: 20px;
+  }
+}
