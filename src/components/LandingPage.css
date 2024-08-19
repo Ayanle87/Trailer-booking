@@ -1,11 +1,3 @@
-.landing-container {
-  height: 100%;
-  font-family: "Poppins", sans-serif;
-  width: 100%;
-}
-.boka:hover {
-  background-color: #a18aa1;
-} 
 
 @media screen and (max-width: 767px) {
   .landing-container {
@@ -15,6 +7,8 @@
     align-items: center;
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
+    height:70vh;
+    overflow-y: hidden;
   }
 
   .trailer-img {
