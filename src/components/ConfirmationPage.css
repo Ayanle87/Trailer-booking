@@ -7,14 +7,12 @@
     margin: 20px auto;
     height: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* background-color: #8aa1a1;
-     */
-     background-color: #f0f0f0;
+    background-color: #f0f0f0;
     text-align: center;
     font-family: "Poppins", sans-serif;
     margin-top: 100px;
     font-weight: 600;
-    max-width: 70vw;
+ 
   }
 
   .confirmation-container h1 {
