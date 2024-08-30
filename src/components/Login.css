@@ -14,7 +14,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 30px;
-  border: 2px solid #370303;
+  /* border: 2px solid #370303; */
   border-radius: 10px;
   max-width: fit-content;
 }
